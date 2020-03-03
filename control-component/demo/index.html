@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDvO2n2tS0rGqOtjBPIFrnQxyMLHoJCCQI",
+      authDomain: "remote-game.firebaseapp.com",
+      databaseURL: "https://remote-game.firebaseio.com",
+      projectId: "remote-game",
+      storageBucket: "remote-game.appspot.com",
+      messagingSenderId: "1041855216573",
+      appId: "1:1041855216573:web:f53015d249117d6fda30d4",
+      measurementId: "G-0TSYER0PNF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script type="module">
+    import '../control-component.js';
+  </script>
+  <title>ControlComponent</title>
+</head>
+<body>
+
+<control-component></control-component>
+
+</body>
+</html>
